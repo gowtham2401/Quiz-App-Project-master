@@ -1,53 +1,84 @@
-def display_project_description():
-    print("📝 Project Overview")
-    print("The Quiz App Project is a web-based quiz application developed using HTML, CSS, and JavaScript.")
-    print("It offers an engaging platform for users to test their knowledge across various topics.\n")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz App Project Description</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
 
-    print("⚙️ Features")
-    features = [
-        "Multiple Quiz Categories: Users can choose from a range of quiz categories.",
-        "Timed Quizzes: Each quiz comes with a countdown timer to enhance the challenge.",
-        "Score Tracking: Scores are displayed at the end of each quiz session.",
-        "High Scores: Users can view the highest scores achieved."
-    ]
-    for feature in features:
-        print(f"- {feature}")
-    print()
+  <div class="section">
+    <h1>📝 Project Overview</h1>
+    <p>The <strong>Quiz App Project</strong> is a web-based quiz application developed using HTML, CSS, and JavaScript. It offers an engaging platform for users to test their knowledge across various topics.</p>
+  </div>
 
-    print("🖥️ Technologies Used")
-    technologies = ["HTML5: For structuring the web pages.",
-                    "CSS3: For styling and layout design.",
-                    "JavaScript: For implementing interactive features and quiz logic."]
-    for tech in technologies:
-        print(f"- {tech}")
-    print()
+  <div class="section">
+    <h2>⚙️ Features</h2>
+    <ul>
+      <li><strong>Multiple Quiz Categories</strong>: Users can choose from a range of quiz categories.</li>
+      <li><strong>Timed Quizzes</strong>: Each quiz comes with a countdown timer to enhance the challenge.</li>
+      <li><strong>Score Tracking</strong>: Scores are displayed at the end of each quiz session.</li>
+      <li><strong>High Scores</strong>: Users can view the highest scores achieved.</li>
+    </ul>
+  </div>
 
-    print("📁 Project Structure")
-    files = [
-        "index.html: The main landing page of the quiz application.",
-        "game.html: The page where the quiz is conducted.",
-        "end.html: The results page displaying the user's score.",
-        "highscores.html: The page listing the top scores.",
-        "questions.json: A JSON file containing the quiz questions and answers.",
-        "app.css, game.css, highscores.css: CSS files for styling respective pages.",
-        "end.js, game.js, highscores.js: JavaScript files handling the functionality of each page."
-    ]
-    for file in files:
-        print(f"- {file}")
-    print()
+  <div class="section">
+    <h2>🖥️ Technologies Used</h2>
+    <ul>
+      <li><strong>HTML5</strong>: For structuring the web pages.</li>
+      <li><strong>CSS3</strong>: For styling and layout design.</li>
+      <li><strong>JavaScript</strong>: For implementing interactive features and quiz logic.</li>
+    </ul>
+  </div>
 
-    print("🚀 How to Run the Application")
-    steps = [
-        "Clone the Repository: Use the command `git clone https://github.com/gowtham2401/Quiz-App-Project-master.git`.",
-        "Open in Browser: Navigate to the project directory and open `index.html` in a web browser."
-    ]
-    for step in steps:
-        print(f"1. {step}")
-    print()
+  <div class="section">
+    <h2>📁 Project Structure</h2>
+    <ul>
+      <li><code>index.html</code>: The main landing page of the quiz application.</li>
+      <li><code>game.html</code>: The page where the quiz is conducted.</li>
+      <li><code>end.html</code>: The results page displaying the user's score.</li>
+      <li><code>highscores.html</code>: The page listing the top scores.</li>
+      <li><code>questions.json</code>: A JSON file containing the quiz questions and answers.</li>
+      <li><code>app.css</code>, <code>game.css</code>, <code>highscores.css</code>: CSS files for styling respective pages.</li>
+      <li><code>end.js</code>, <code>game.js</code>, <code>highscores.js</code>: JavaScript files handling the functionality of each page.</li>
+    </ul>
+  </div>
 
-    print("📌 Note")
-    print("This project is ideal for practicing and improving knowledge in various subjects through interactive quizzes.")
-    print("It is also a great starting point for developers learning web development.")
+  <div class="section">
+    <h2>🚀 How to Run the Application</h2>
+    <ol>
+      <li><strong>Clone the Repository</strong>: Use the command <code>git clone https://github.com/gowtham2401/Quiz-App-Project-master.git</code> to clone the repository to your local machine.</li>
+      <li><strong>Open in Browser</strong>: Navigate to the project directory and open <code>index.html</code> in your preferred web browser to start the application.</li>
+    </ol>
+  </div>
 
-# Run the function to display
-display_project_description()
+  <div class="section">
+    <h2>📌 Note</h2>
+    <p>This project is ideal for those looking to practice and improve their knowledge in various subjects through interactive quizzes. It's also a great starting point for developers interested in creating quiz applications using basic web technologies.</p>
+  </div>
+
+</body>
+</html>
