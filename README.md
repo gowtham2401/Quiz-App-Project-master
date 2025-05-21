@@ -1,4 +1,4 @@
-<title>Quiz App Project Description</title>
+<h1>Quiz App Project Description</h1>
     <h1>📝 Project Overview</h1>
     <p>The <strong>Quiz App Project</strong> is a web-based quiz application developed using HTML, CSS, and JavaScript. It offers an engaging platform for users to test their knowledge across various topics.</p>
   </div>
