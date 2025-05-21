@@ -1,4 +1,5 @@
 <h1>Quiz App Project Description</h1>
+ <h1><a href="https://gowtham2401.github.io/Quiz-App-Project-master/">Preview</a></h1>h1>
     <h1>📝 Project Overview</h1>
     <p>The <strong>Quiz App Project</strong> is a web-based quiz application developed using HTML, CSS, and JavaScript. It offers an engaging platform for users to test their knowledge across various topics.</p>
   </div>
